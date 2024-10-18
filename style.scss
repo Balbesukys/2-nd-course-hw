@@ -19,6 +19,20 @@
     overflow: hidden;
 }
 
+.startwo {
+    position: absolute;
+    top: 69px;
+    left: 63px;
+}
+
+
+.bigstar1 {
+    position: absolute;
+    overflow: hidden;
+    left: 928px;
+    top: -325px;
+}
+
 .glav-linia {
     position: absolute;
     left: 800px;
@@ -68,16 +82,18 @@
     left: 156px;
 }
 
-.glav-star4 {
+.starthree {
     position: absolute;
-    top: 568px;
-    left: 1013px;
+    bottom: 146px;
+    left: 948px;
 }
 
-.glav-star5 {
-    position: absolute;
-    left: 948px;
-    top: 538px;
+.mobstar {
+    display: none;
+}
+
+.mobstarsmoll {
+    display: none;
 }
 
 .glav-svg {
@@ -158,7 +174,7 @@
     height: 1470px;
 }
 
-.cart {
+.play-cart {
     display: grid;
     grid-template-columns: repeat(3, 400px);
 }
@@ -179,19 +195,20 @@
 
 }
 
-.cart-img__bigstar {
+.play__bigstar {
     position: absolute;
     left: 970px;
     top: 980px;
+    overflow: hidden;
 }
 
-.cart-img__star {
+.play__star {
     position: absolute;
     left: 40px;
     bottom: -1015px;
 }
 
-.cart-img__star2 {
+.play__star2 {
     position: absolute;
     left: 25px;
     bottom: -935px;
@@ -234,6 +251,7 @@
 }
 
 .cart-content__coment {
+    font-family: Montserrat;
     border-radius: 52.58px;
     background: rgb(247, 247, 247);
     text-align: center;
@@ -281,7 +299,7 @@
     font-family: Montserrat;
     font-size: 64px;
     font-weight: 700;
-    line-height: 78px;
+    line-height: 72px;
     letter-spacing: 0px;
     text-align: left;
 }
