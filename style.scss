@@ -174,10 +174,16 @@
     height: 1470px;
 }
 
-.play-cart {
-    display: grid;
-    grid-template-columns: repeat(3, 400px);
+.play-cart_onesec {
+    display: flex;
+    gap: 32px;
 }
+
+.play-cart2 {
+    display: flex;
+    gap: 32px;
+}
+
 
 .cart-all {
     border-radius: 50px;

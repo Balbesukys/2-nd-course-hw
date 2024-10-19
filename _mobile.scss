@@ -65,8 +65,48 @@
         background: rgb(32, 32, 39);
     }
 
+    .cart-section {
+        padding-top: 0px;
+    }
 
-    .paly__bigstar {
+    .play {
+        height: 3740px;
+    }
+
+    .play-content__text {
+        display: none;
+    }
+
+    .play-content__mobtext {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .play-content__par {
+        display: none;
+    }
+
+    .play-cart_onesec {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        padding-bottom: 24px;
+    }
+
+    .play-cart2 {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+    }
+
+    .play__bigstar {
         display: none;
     }
 
@@ -80,6 +120,7 @@
     }
 
     .mobstarsmoll {
+        display: flex;
         position: absolute;
         left: 272px;
         bottom: 79px;
