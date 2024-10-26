@@ -29,7 +29,7 @@
 .bigstar1 {
   position: absolute;
   overflow: hidden;
-  left: 928px;
+  left: 920px;
   top: -325px;
 }
 
@@ -200,9 +200,9 @@
   padding-top: 32px;
 }
 
-.play__bigstar {
+.cart-content__bigstar {
   position: absolute;
-  left: 970px;
+  left: 1000px;
   top: 980px;
   overflow: hidden;
 }
@@ -388,6 +388,7 @@
   width: 1200px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  border-radius: 50px;
 }
 
 .minigame-content__minicart {
@@ -399,11 +400,18 @@
   display: flex;
   background-color: white;
   flex-direction: row-reverse;
+  border-radius: 50px;
 }
 
-.minigame-content__img {
+.minigame-img {
   position: absolute;
   left: 1249px;
+}
+
+.minigame-content__img1 {
+  position: absolute;
+  left: 1277px;
+  padding-top: 45px;
 }
 
 .footer {
@@ -421,7 +429,11 @@
   line-height: 29px;
   letter-spacing: 0px;
   text-align: center;
-  padding-left: 578px;
+  padding-left: 610px;
+}
+
+.cart-scroll {
+  text-decoration: none;
 }
 
 @media (max-width: 765px) {
@@ -492,7 +504,7 @@
     text-align: left;
     text-transform: uppercase;
   }
-  .zvezd {
+  .glav-zvezd {
     position: static;
     width: 19.34px;
     height: 19.34px;
@@ -532,7 +544,7 @@
     gap: 24px;
     flex-direction: column;
   }
-  .play__bigstar {
+  .cart-content__bigstar {
     display: none;
   }
   .startwo {
@@ -607,6 +619,9 @@
   .minigame-content__cart {
     width: 343px;
     padding: 29.04px 29.04px 32.67px 29.04px;
+  }
+  .minigame-content__img1 {
+    display: none;
   }
   .play {
     display: none;

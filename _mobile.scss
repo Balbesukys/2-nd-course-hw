@@ -75,7 +75,7 @@
         text-transform: uppercase;
     }
 
-    .zvezd {
+    .glav-zvezd {
         position: static;
         width: 19.34px;
         height: 19.34px;
@@ -123,7 +123,7 @@
         flex-direction: column;
     }
 
-    .play__bigstar {
+    .cart-content__bigstar {
         display: none;
     }
 
@@ -210,6 +210,10 @@
     .minigame-content__cart {
         width: 343px;
         padding: 29.04px 29.04px 32.67px 29.04px;
+    }
+
+    .minigame-content__img1 {
+        display: none;
     }
 
     .play {
