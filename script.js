@@ -184,3 +184,100 @@ for (let o = dayFriday; o <= allDay; o += 7) {
 }
 
 */
+
+//Задаине 1
+
+function min(a, b) {
+    if (a < b) {
+        return a;
+
+    } else {
+        return b;
+    }
+}
+console.log(min(8, 4));
+console.log(min(6, 6));
+
+//Задание 2 
+
+function isEven(n) {
+    if (n % 2 === 0) {
+        return 'Число чётное';
+    } else {
+        return 'Число нечётное';
+    }
+}
+console.log(isEven(2));
+console.log(isEven(3));
+
+
+//Задане 3
+
+function square(number) {
+    console.log(number ** 2);
+}
+const up = (n) => n ** 2;
+square(5);
+console.log(up(5));
+
+//Задние 4
+function age() {
+    let age = +prompt('Сколько тебе лет?');
+
+    if (age < 0) {
+        alert('Вы ввели непрельное значение');
+
+    } else if (age >= 0 && age <= 12) {
+        alert('Привет мой друг!');
+
+    } else if (age >= 13) {
+        alert('Добро пожаловать!');
+    }
+}
+age();
+
+//Задание 4
+function calc(b, c) {
+    console.log(isNaN(b));
+    console.log(isNaN(c));
+    if (isNaN(b) || isNaN(c)) {
+        return 'Одно или оба значения не являются числом';
+    } else {
+        return b * c;
+    }
+}
+
+console.log(calc('5', '4'));
+
+//Задние 6
+
+function getNumber() {
+    let number = prompt('Введите число');
+    console.log(isNaN(number));
+    if (isNaN(number)) {
+        return ('Заданый параметр не является числом');
+    } else {
+        return `${number} в кубе равняетеся ${number ** 3}`;
+    }
+}
+console.log(getNumber());
+
+//Задние 7
+function getArea() {
+    return Math.PI * this.radius ** 2;
+}
+function getPerimeter() {
+    return 2 * Math.PI * this.radius;
+}
+const circle1 = {
+    radius: 10,
+    methodGetArea: getArea,
+    methodGetPerimeter: getPerimeter,
+}
+const circle2 = {
+    radius: 20,
+    methodGetArea: getArea,
+    methodGetPerimeter: getPerimeter,
+}
+console.log(circle1.methodGetArea());
+console.log(circle2.methodGetArea());
