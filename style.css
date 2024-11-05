@@ -436,6 +436,13 @@
   text-decoration: none;
 }
 
+.gameone {
+  font-family: Montserrat;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 @media (max-width: 765px) {
   .center {
     padding-left: 17px;

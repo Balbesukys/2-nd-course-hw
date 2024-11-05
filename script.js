@@ -69,9 +69,8 @@
 
 
 //Задание №2
-
+/*
 //задание1
-
 let password = 'пароль';
 let userPass = prompt('Введите пароль');
 if (userPass === password) {
@@ -79,7 +78,7 @@ if (userPass === password) {
 }
 else {
     alert('Пароль введён не верно');
-}
+} 
 
 //Задание 2
 
@@ -183,3 +182,5 @@ for (let o = dayFriday; o <= allDay; o += 7) {
     console.log(`Сегодня пятница, ${o}-е число. Необходимо подготовить отчёт.`);
 
 }
+
+*/
