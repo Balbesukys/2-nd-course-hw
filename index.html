@@ -31,15 +31,15 @@
     </header>
     <div class="glav-svg">
         <a class="zvezda" href="#">Викторина</a>
-        <img class="glav-zvezd" src="img/zvezda.svg">
+        <img class="glav-zvezd" src="img/zvezda.svg" alt="Nozvezdy">
         <a class="zvezda" href="#">Угадай число</a>
         <img class="glav-zvezd" src="img/zvezda.svg" alt="Nozvezdy">
         <a class="zvezda" href="#">Переверни текст</a>
-        <img class="glav-zvezd" src="img/zvezda.svg" alt="">
+        <img class="glav-zvezd" src="img/zvezda.svg" alt="Nozvezdy">
         <a class="zvezda" href="#">Простая арифметика</a>
-        <img class="glav-zvezd" src="img/zvezda.svg" alt="">
+        <img class="glav-zvezd" src="img/zvezda.svg" alt="Nozvezdy">
         <a class="zvezda" href="#">Генератор случайных цветов</a>
-        <img class="glav-zvezd" src="img/zvezda.svg" alt="">
+        <img class="glav-zvezd" src="img/zvezda.svg" alt="Nozvezdy">
     </div>
     <div class="play center">
         <img class="play__star2" src="img/starplay2.svg" alt="">
@@ -55,7 +55,7 @@
             <div class="cart-all">
                 <a class="cart-scroll" href="#cart1">
                     <div class="cart-content">
-                        <img class="cart-content__bigstar" src="img/bigstarplay.svg">
+                        <img class="cart-content__bigstar" src="img/bigstarplay.svg" alt="bigstar">
                         <section>
                             <img class="cart-img" src="img/cart1.png" alt="">
                         </section>
@@ -169,7 +169,7 @@
                     <div class="minigame-content__cart">
                         <p class="minigame-content__text">Простая арифметика</p>
                         <p class="minigame-content__par">Попробуй решить простые арифметические задачи.</p>
-                        <button class="minigame-content__button">Играть</button>
+                        <button class="minigame-content__button" onclick="randomTasks()">Играть</button>
                     </div>
                 </article>
                 <img class="minigame-content__minicart" src="img/cart2.png" alt="">
@@ -181,7 +181,7 @@
                     <div class="minigame-content__cart">
                         <p class="minigame-content__text">Переверни текст</p>
                         <p class="minigame-content__par">Попробуй ввести текст, который будет перевернут.</p>
-                        <button class="minigame-content__button">Играть</button>
+                        <a href="Pereverttext.html"><button class="minigame-content__button">Играть</button></a>
                     </div>
                 </article>
                 <img class="minigame-content__minicart" src="img/cart3.png" alt="">
@@ -231,6 +231,7 @@
         <h3 class="footer-text">Все права защищены.</h3>
     </div>
     <script src="script.js"></script>
+    <script src="scriptgame2.js"></script>
 </body>
 
 </html>
