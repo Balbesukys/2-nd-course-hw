@@ -186,7 +186,7 @@ for (let o = dayFriday; o <= allDay; o += 7) {
 */
 
 //Задаине 1
-
+/*
 function min(a, b) {
     if (a < b) {
         return a;
@@ -424,4 +424,82 @@ for (let i = 0; i < 3; i++) {
 
 
 console.log(arro);
-console.log(arro.reduce((a, b) => a + b / arro.length));
+console.log(arro.reduce((a, b) => a + b / arro.length));  */
+
+//Задание 1
+let str = 'js';
+str = str.toUpperCase();
+console.log(str);
+
+//Задание 2
+function filter(arr, str1) {
+    const lowerStr1 = str1.toLowerCase();
+    return arr.filter(item => item.toLowerCase().startsWith(lowerStr1));
+
+}
+console.log(filter(['JavaScript', 'Java', 'Python'], 'ja'));
+
+
+//Задание 3
+let num = 32.58884;
+console.log(Math.floor(num));
+console.log(Math.ceil(num));
+console.log(Math.round(num));
+
+
+//Задане 4
+console.log(Math.min(52, 53, 49, 77, 21, 32));
+console.log(Math.max(52, 53, 49, 77, 21, 32));
+
+
+//Задание 5
+function getRandomNumber() {
+    return Math.floor(Math.random() * 10) + 1;
+}
+console.log(getRandomNumber());
+
+//Задание 6 
+function getRandomNumber1(num) {
+    return Array.from({ length: Math.floor(num / 2) }, () => Math.floor(Math.random() * num));
+}
+console.log(getRandomNumber1(10));
+
+
+//Задание 7
+
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+console.log(getRandomInt(15, 18));
+
+
+//Задание 8
+
+console.log(new Date());
+
+
+//Задание 9 
+const currentDate = new Date();
+currentDate.setDate(currentDate.getDate() + 73);
+console.log(currentDate);
+
+//Задание 10
+
+function formatDate(date) {
+    const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятнца", "Суббота"];
+    const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+    const year = date.getFullYear();
+    const day = date.getDate();
+    const month = date.getMonth();
+    const dayOFWeek = days[date.getDay()];
+    const hours = date.getHours();
+    const minutes = date.getMinutes();
+    const seconds = date.getSeconds();
+
+    return `
+    Дата : ${day} ${months[month]} ${year} - это ${dayOFWeek}.
+    Время: ${hours} ${minutes} ${seconds} `;
+}
+
+console.log(formatDate(new Date()));
