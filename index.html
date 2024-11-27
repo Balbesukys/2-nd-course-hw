@@ -11,40 +11,39 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="glav center">
-        <img class="glav-linia" src="img/linia1.svg" alt="">
-        <img class="glav-linia2" src="img/linia2.svg" alt="">
-        <img class="glav-linia3" src="img/linia3.svg" alt="">
-        <img class="glav-trapez" src="img/trapez.svg" alt="">
-        <img class="glav-linia4" src="img/linia4.svg" alt="">
-        <img class="glav-vector" src="img/bigstar.svg">
-        <img class="glav-star2" src="img/Star 2.png">
-        <img class="glav-star3" src="img/Star 3.png">
+        <img class="startwo" src="img/startwo.svg" alt="">
+        <img class="bigstar1" src="img/bigstarandlinie.svg" alt="">
+        <img class="starthree" src="img/stargroup3.svg" alt="">
+        <img class="mobstar" src="img/mobstar.svg" alt="">
+        <img class="mobstarsmoll" src="img/mobstarsmoll.svg" alt="">
         <div class="glav-block">
             <h1 class="glav-block__text">Добро пожаловать на мой сайт мини-игр</h1>
-            <p class="glav-block__par">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай <b
-                    class="glav-block__j">«Поехали!»</b> и <b class="glav__block-j">приступай</b>.</p>
-            <button class="glav-knopka">Поехали!</button>
+            <div class="glav-block__obsh">
+
+                <p class="glav-block__par">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай <b
+                        class="glav-block__j">«Поехали!»</b> и <b class="glav__block-j">приступай</b>.</p>
+                <button class="glav-knopka">Поехали!</button>
+            </div>
         </div>
-        <img class="glav-star4" src="img/Star 4.png">
-        <img class="glav-star5" src="img/Star 5.png">
     </header>
     <div class="glav-svg">
         <a class="zvezda" href="#">Викторина</a>
-        <img src="img/zvezda.svg">
+        <img class="glav-zvezd" src="img/zvezda.svg" alt="Nozvezdy">
         <a class="zvezda" href="#">Угадай число</a>
-        <img src="img/zvezda.svg" alt="Nozvezdy">
+        <img class="glav-zvezd" src="img/zvezda.svg" alt="Nozvezdy">
         <a class="zvezda" href="#">Переверни текст</a>
-        <img src="img/zvezda.svg" alt="">
+        <img class="glav-zvezd" src="img/zvezda.svg" alt="Nozvezdy">
         <a class="zvezda" href="#">Простая арифметика</a>
-        <img src="img/zvezda.svg" alt="">
+        <img class="glav-zvezd" src="img/zvezda.svg" alt="Nozvezdy">
         <a class="zvezda" href="#">Генератор случайных цветов</a>
-        <img src="img/zvezda.svg" alt="">
+        <img class="glav-zvezd" src="img/zvezda.svg" alt="Nozvezdy">
     </div>
     <div class="play center">
-        <img class="cart-img__star2" src="img/starplay2.svg" alt="">
-        <img class="cart-img__star" src="img/starplay.svg" alt="">
+        <img class="play__star2" src="img/starplay2.svg" alt="">
+        <img class="play__star" src="img/starplay.svg" alt="">
         <div class="play-content">
             <h3 class="play-content__text">Об играх</h3>
             <p class="play-content__par">
@@ -52,80 +51,187 @@
                 Игры несложные — в них может поиграть каждый.
                 Все игры доступны для пользования.</p>
         </div>
-        <div class="cart">
+        <div class="play__onesec">
             <div class="cart-all">
-                <div class="cart-content">
-                    <img class="cart-img__bigstar" src="img/bigstarplay.svg">
-                    <section>
-                        <img class="cart-img" src="img/cart1.png" alt="">
-                    </section>
-                    <section class="cart-play">
-                        <p class="cart-content__coment">Игра №1</p>
-                        <p class="cart-content__coment2">Угадай число</p>
-                    </section>
-                </div>
-            </div>
-            <div class="cart">
-                <div class="cart-all">
+                <a class="cart-scroll" href="#cart1">
                     <div class="cart-content">
+                        <img class="cart-content__bigstar" src="img/bigstarplay.svg" alt="bigstar">
                         <section>
-                            <img class="cart-img" src="img/cart2.png" alt="">
+                            <img class="cart-img" src="img/cart1.png" alt="">
                         </section>
                         <section class="cart-play">
-                            <p class="cart-content__coment">Игра №2</p>
-                            <p class="cart-content__coment2">Простая аримфетика</p>
+                            <p class="cart-content__coment">Игра №1</p>
+                            <p class="cart-content__coment2">Угадай число</p>
                         </section>
                     </div>
-                </div>
+                </a>
             </div>
+
             <div class="cart">
                 <div class="cart-all">
-                    <div class="cart-content">
-                        <section>
-                            <img class="cart-img" src="img/cart3.png" alt="">
-                        </section>
-                        <section class="cart-play">
-                            <p class="cart-content__coment">Игра №3</p>
-                            <p class="cart-content__coment2">Переверни текст</p>
-                        </section>
-                    </div>
+                    <a class="cart-scroll" href="#cart2">
+                        <div class="cart-content">
+                            <section>
+                                <img class="cart-img" src="img/cart2.png" alt="">
+                            </section>
+                            <section class="cart-play">
+                                <p class="cart-content__coment">Игра №2</p>
+                                <p class="cart-content__coment2">Простая аримфетика</p>
+                            </section>
+                        </div>
+                    </a>
                 </div>
+
             </div>
             <div class="cart">
-                <div class="cart-content">
-                    <section>
-                        <img class="cart-img" src="img/cart4.png" alt="">
-                    </section>
-                    <section class="cart-play">
-                        <p class="cart-content__coment">Игра №4</p>
-                        <p class="cart-content__coment2 cart-content__coment3">Камень, ножницы, бумага</p>
-                    </section>
+
+                <div class="cart-all">
+                    <a class="cart-scroll" href="#cart3">
+                        <div class="cart-content">
+                            <section>
+                                <img class="cart-img" src="img/cart3.png" alt="">
+                            </section>
+                            <section class="cart-play">
+                                <p class="cart-content__coment">Игра №3</p>
+                                <p class="cart-content__coment2">Переверни текст</p>
+                            </section>
+                        </div>
+                    </a>
                 </div>
+            </div>
+
+        </div>
+        <div class="play-cart2">
+            <div class="cart">
+                <a class="cart-scroll" href="#cart4">
+
+                    <div class="cart-content">
+                        <section>
+                            <img class="cart-img" src="img/cart4.png" alt="">
+                        </section>
+                        <section class="cart-play">
+                            <p class="cart-content__coment">Игра №4</p>
+                            <p class="cart-content__coment2 cart-content__coment3">Камень, ножницы, бумага</p>
+                        </section>
+                    </div>
+                </a>
+
             </div>
             <div class="cart cart-section">
-                <div class="cart-content">
-                    <section>
-                        <img class="cart-img" src="img/cart5.png" alt="">
-                    </section>
-                    <section class="cart-play">
-                        <p class="cart-content__coment">Игра №5</p>
-                        <p class="cart-content__coment2">Простая викторина</p>
-                    </section>
-                </div>
+                <a class="cart-scroll" href="#cart5">
+
+                    <div class="cart-content">
+                        <section>
+                            <img class="cart-img" src="img/cart5.png" alt="">
+                        </section>
+                        <section class="cart-play">
+                            <p class="cart-content__coment">Игра №5</p>
+                            <p class="cart-content__coment2">Простая викторина</p>
+                        </section>
+                    </div>
+                </a>
+
             </div>
             <div class="cart">
-                <div class="cart-content">
-                    <section>
-                        <img class="cart-img" src="img/cart6.png" alt="">
-                    </section>
-                    <section class="cart-play">
-                        <p class="cart-content__coment">Игра №6</p>
-                        <p class="cart-content__coment2 cart-content__coment3">Генератор случайных цветов</p>
-                    </section>
-                </div>
+                <a class="cart-scroll" href="#cart6">
+                    <div class="cart-content">
+                        <section>
+                            <img class="cart-img" src="img/cart6.png" alt="">
+                        </section>
+                        <section class="cart-play">
+                            <p class="cart-content__coment">Игра №6</p>
+                            <p class="cart-content__coment2 cart-content__coment3">Генератор случайных цветов</p>
+                        </section>
+                    </div>
+                </a>
+
             </div>
         </div>
     </div>
+    <div class="minigame center">
+        <div class="minigame-content">
+            <img class="minigame-content__img1" src="img/minagamestar.svg" alt="">
+            <h3 class="minigame-content__shaptext">Мини-игры</h3>
+            <div class="minigame-content__allminicart">
+                <article id="cart1">
+                    <div class="minigame-content__cart">
+                        <p class="minigame-content__text">Угадай число</p>
+                        <p class="minigame-content__par"> Попробуй угадать случайное число от 1 до 100.</p>
+                        <a href="Ygadaichislo.html"><button class="minigame-content__button">Играть</button></a>
+                    </div>
+                </article>
+                <img class="minigame-content__minicart" src="img/cart1.png" alt="">
+            </div>
+        </div>
+        <div class="minigame-content ">
+            <div class="minigame-content__twominicart center">
+                <article id="cart2">
+                    <div class="minigame-content__cart">
+                        <p class="minigame-content__text">Простая арифметика</p>
+                        <p class="minigame-content__par">Попробуй решить простые арифметические задачи.</p>
+                        <button class="minigame-content__button" onclick="randomTasks()">Играть</button>
+                    </div>
+                </article>
+                <img class="minigame-content__minicart" src="img/cart2.png" alt="">
+            </div>
+        </div>
+        <div class="minigame-content">
+            <div class="minigame-content__allminicart">
+                <article id="cart3">
+                    <div class="minigame-content__cart">
+                        <p class="minigame-content__text">Переверни текст</p>
+                        <p class="minigame-content__par">Попробуй ввести текст, который будет перевернут.</p>
+                        <button class="minigame-content__button" onclick="perevText()">Играть</button>
+                    </div>
+                </article>
+                <img class="minigame-content__minicart" src="img/cart3.png" alt="">
+            </div>
+        </div>
+        <div class="minigame-content">
+            <div class="minigame-content__twominicart center">
+                <article id="cart4">
+                    <div class="minigame-content__cart">
+                        <p class="minigame-content__text">Викторина</p>
+                        <p class="minigame-content__par"> Отвечай на вопросы викториныс вариантами ответов.</p>
+                        <button class="minigame-content__button">Играть</button>
+                    </div>
+                </article>
+                <img class="minigame-content__minicart" src="img/cart5.png" alt="">
+            </div>
+        </div>
+        <div class="minigame-content">
+            <div class="minigame-content__allminicart center">
+                <article id="cart5">
+                    <div class="minigame-content__cart">
+                        <p class="minigame-content__text">Камень, ножницы, бумага</p>
+                        <p class="minigame-content__par">Сыграй в популярную игру против компьютера.</p>
+                        <button class="minigame-content__button" onclick="igra()">Играть</button>
+                </article>
+                <img class="minigame-content__minicart" src="img/cart4.png" alt="">
+            </div>
+        </div>
+        <div class="minigame-content">
+            <div class="minigame-content__twominicart center">
+                <article id="cart6">
+                    <div class="minigame-content__cart">
+                        <p class="minigame-content__text">Генератор случайных цветов</p>
+                        <p class="minigame-content__par">Игра, в которой при клике на кнопку фон страницы меняется на
+                            случайный.</p>
+                        <button class="minigame-content__button">Играть</button>
+                    </div>
+                </article>
+                <img class="minigame-content__minicart" src="img/cart6.png" alt="">
+            </div>
+        </div>
+        <img class="minigame-img" src="img/footerstar.svg" alt="">
+    </div>
+    <div class="footer">
+        <h3 class="footer-text">Все права защищены.</h3>
+    </div>
+    <script src="script.js"></script>
+    <script src="scriptgame2.js"></script>
+    <script src="scriptgame3.js"></script>
+    <script src="scriptgame5.js"></script>
 </body>
 
 </html>

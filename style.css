@@ -1,287 +1,647 @@
+@charset "UTF-8";
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .center {
-    padding-left: calc(50% - 640px);
-    padding-right: calc(50% - 640px);
+  padding-left: calc(50% - 640px);
+  padding-right: calc(50% - 640px);
 }
 
 .left {
-    padding-left: calc(50% - 640px);
+  padding-left: calc(50% - 640px);
 }
 
 .glav {
-    position: relative;
-    background-image: url(img/fonplay.jpg);
-    height: 800px;
-    overflow: hidden;
+  position: relative;
+  background-image: url(img/fonplay.jpg);
+  height: 800px;
+  overflow: hidden;
+}
+
+.startwo {
+  position: absolute;
+  top: 69px;
+  left: 63px;
+}
+
+.bigstar1 {
+  position: absolute;
+  overflow: hidden;
+  left: 920px;
+  top: -325px;
 }
 
 .glav-linia {
-    position: absolute;
-    left: 800px;
+  position: absolute;
+  left: 800px;
 }
 
 .glav-linia2 {
-    position: absolute;
-    left: 1075px;
-    top: 255px;
+  position: absolute;
+  left: 1075px;
+  top: 255px;
 }
 
 .glav-linia3 {
-    top: 380px;
-    position: absolute;
-    left: 1290px;
+  top: 380px;
+  position: absolute;
+  left: 1290px;
 }
 
 .glav-trapez {
-    top: 460px;
-    position: absolute;
-    left: 1325px;
+  top: 460px;
+  position: absolute;
+  left: 1325px;
 }
 
 .glav-linia4 {
-    top: 730px;
-    position: absolute;
-    left: 1440px;
+  top: 730px;
+  position: absolute;
+  left: 1440px;
 }
 
 .glav-vector {
-    position: absolute;
-    top: -260px;
-    right: -380px;
-    overflow: hidden;
+  position: absolute;
+  top: -260px;
+  right: -380px;
+  overflow: hidden;
 }
 
-
 .glav-star2 {
-    position: absolute;
-    top: 94px;
-    left: 63px;
+  position: absolute;
+  top: 94px;
+  left: 63px;
 }
 
 .glav-star3 {
-    position: absolute;
-    top: 69px;
-    left: 156px;
+  position: absolute;
+  top: 69px;
+  left: 156px;
 }
 
-.glav-star4 {
-    position: absolute;
-    top: 568px;
-    left: 1013px;
+.starthree {
+  position: absolute;
+  bottom: 146px;
+  left: 948px;
 }
 
-.glav-star5 {
-    position: absolute;
-    left: 948px;
-    top: 538px;
+.mobstar {
+  display: none;
+}
+
+.mobstarsmoll {
+  display: none;
 }
 
 .glav-svg {
-    height: 90px;
-    text-decoration: none;
-    align-items: center;
+  height: 90px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: 4%;
+  text-align: left;
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: rgb(188, 236, 48);
+}
+
+.zvezda {
+  text-decoration: none;
+  color: rgb(32, 32, 39);
+}
+
+.glav-block {
+  padding-top: 196px;
+  width: 769px;
+  height: 358px;
+}
+
+.glav-block__text {
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78.02px;
+  text-align: left;
+  padding-bottom: 24px;
+}
+
+.glav-block__par {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  padding-bottom: 48px;
+}
+
+.glav-block__j {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+}
+
+.glav-knopka {
+  border-radius: 60px;
+  background-color: rgb(32, 32, 39);
+  color: white;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34.01px;
+  text-align: center;
+  width: 247px;
+  height: 66px;
+}
+
+/*1 секция закончилась*/
+.play {
+  height: 1470px;
+  overflow: hidden;
+  background-image: url(img/fonobgame.png);
+}
+
+.play__silka {
+  text-decoration: none;
+}
+
+.play__onesec {
+  display: flex;
+  gap: 32px;
+}
+
+.play-cart2 {
+  display: flex;
+  gap: 32px;
+}
+
+.cart-all {
+  border-radius: 50px;
+  width: 378px;
+}
+
+.cart-content {
+  border-radius: 50px;
+  background-color: white;
+  width: 378px;
+}
+
+.cart-section {
+  padding-top: 32px;
+}
+
+.cart-content__bigstar {
+  position: absolute;
+  left: 1000px;
+  top: 980px;
+  overflow: hidden;
+}
+
+.play__star {
+  position: absolute;
+  left: 40px;
+  bottom: -1015px;
+}
+
+.play__star2 {
+  position: absolute;
+  left: 25px;
+  bottom: -935px;
+}
+
+.play-content__text {
+  padding-top: 94px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.play-content__mobtext {
+  display: none;
+}
+
+.play-content__par {
+  padding-top: 24px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  padding-bottom: 72px;
+}
+
+.cart-img {
+  position: relative;
+  height: 314px;
+}
+
+.cart-play {
+  width: 378px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 32px 32px 36px 32px;
+}
+
+.cart-content__coment {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 0px;
+  text-align: center;
+  border-radius: 52.58px;
+  background: rgb(247, 247, 247);
+  position: static;
+  box-sizing: border-box;
+  width: 108px;
+  height: 36px;
+  align-items: center;
+  padding: 8px 16px 10px 16px;
+}
+
+.cart-content__coment2 {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+  background-color: white;
+  width: 314px;
+  padding-top: 16px;
+}
+
+.cart-content__coment3 {
+  padding-top: 32px;
+  text-transform: uppercase;
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.miniplay {
+  padding-top: 46px;
+  background-image: url(img/fonobgame.png);
+  padding-bottom: 72px;
+}
+
+.miniplay-text {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.minigame {
+  background-image: url(img/fonobgame.png);
+  padding-top: 46px;
+  height: 3500px;
+}
+
+.minigame-content {
+  padding-bottom: 32px;
+}
+
+.minigame-content__shaptext {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 72px;
+}
+
+.minigame-content__cart {
+  width: 600px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 48px 48px 48px 48px;
+}
+
+.minigame-content__text {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 24px;
+}
+
+.minigame-content__par {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 36px;
+}
+
+.minigame-content__button {
+  width: 247px;
+  box-sizing: border-box;
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 141.69%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 16px 28px 16px 28px;
+}
+
+.minigame-content__allminicart {
+  background-color: white;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border-radius: 50px;
+}
+
+.minigame-content__minicart {
+  width: 600px;
+}
+
+.minigame-content__twominicart {
+  width: 1200px;
+  display: flex;
+  background-color: white;
+  flex-direction: row-reverse;
+  border-radius: 50px;
+}
+
+.minigame-img {
+  position: absolute;
+  left: 1249px;
+}
+
+.minigame-content__img1 {
+  position: absolute;
+  left: 1277px;
+  padding-top: 45px;
+}
+
+.footer {
+  height: 150px;
+  background: rgb(189, 237, 53);
+  display: flex;
+  align-items: center;
+}
+
+.footer-text {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-left: 578px;
+  padding-right: 578px;
+}
+
+.cart-scroll {
+  text-decoration: none;
+}
+
+.gameone {
+  font-family: Montserrat;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 765px) {
+  .center {
+    padding-left: 17px;
+    padding-right: 16px;
+  }
+  .glav {
+    height: 700px;
+    padding-bottom: 131px;
+  }
+  .glav-block {
+    width: 375px;
+    height: 700px;
     display: flex;
-    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .glav-block__text {
+    width: 262px;
+    height: 196px;
     color: rgb(32, 32, 39);
     font-family: Montserrat;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24;
+    padding: 0px;
+  }
+  .glav-block__obsh {
+    width: 343px;
+  }
+  .glav-block__par {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 296px;
+    padding-left: 23.5px;
+    padding-bottom: 36px;
+  }
+  .glav-block__j {
+    font-size: 16px;
+  }
+  .glav-knopka {
+    width: 320px;
+    box-sizing: border-box;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+  }
+  .zvezda {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 16px;
     font-weight: 700;
     line-height: 110%;
     letter-spacing: 4%;
     text-align: left;
     text-transform: uppercase;
-    overflow: hidden;
-    white-space: nowrap;
-    background-color: rgb(188, 236, 48);
-}
-
-.zvezda {
-    text-decoration: none;
-    color: rgb(32, 32, 39);
-}
-
-.glav-block {
-    padding-top: 196px;
-    width: 769px;
-    height: 358px;
-}
-
-.glav-block__text {
+  }
+  .glav-zvezd {
+    position: static;
+    width: 19.34px;
+    height: 19.34px;
+  }
+  .cart-section {
+    padding-top: 0px;
+  }
+  .play {
+    height: 3740px;
+  }
+  .play-content__text {
+    display: none;
+  }
+  .play-content__mobtext {
+    display: flex;
+    color: rgb(255, 255, 255);
     font-family: Montserrat;
-    font-size: 64px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 78.02px;
+    line-height: 49px;
+    letter-spacing: 0px;
     text-align: left;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .play-content__par {
+    display: none;
+  }
+  .play-cart__onesec {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
     padding-bottom: 24px;
-}
-
-.glav-block__par {
+  }
+  .play-cart2 {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+  }
+  .cart-content__bigstar {
+    display: none;
+  }
+  .startwo {
+    left: 37px;
+    top: 64px;
+  }
+  .starthree {
+    display: none;
+  }
+  .mobstarsmoll {
+    display: flex;
+    position: absolute;
+    left: 272px;
+    bottom: 79px;
+  }
+  .mobstar {
+    position: absolute;
+    display: flex;
+    left: 220px;
+    top: -80px;
+  }
+  .minigame {
+    padding-bottom: 305px;
+  }
+  .minigame-content__shaptext {
+    color: rgb(255, 255, 255);
     font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 32px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0px;
     text-align: left;
     padding-bottom: 48px;
-}
-
-.glav-block__j {
+  }
+  .minigame-content__text {
+    color: rgb(32, 32, 39);
     font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 32px;
-    text-align: left;
-}
-
-.glav-knopka {
-    border-radius: 60px;
-    background-color: rgba(32, 32, 39, 1);
-    color: white;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 34.01px;
-    text-align: center;
-    width: 247px;
-    height: 66px;
-
-
-}
-
-/*1 секция закончилась*/
-.play {
-    overflow: hidden;
-    background-image: url(img/fonobgame.png);
-    height: 1470px;
-}
-
-.cart {
-    display: grid;
-    grid-template-columns: repeat(3, 400px);
-}
-
-.cart-all {
-    border-radius: 50px;
-    width: 378px;
-}
-
-.cart-content {
-    border-radius: 50px;
-    background-color: white;
-    width: 378px;
-}
-
-.cart-section {
-    padding-top: 32px;
-
-}
-
-.cart-img__bigstar {
-    position: absolute;
-    left: 970px;
-    top: 980px;
-}
-
-.cart-img__star {
-    position: absolute;
-    left: 40px;
-    bottom: -1015px;
-}
-
-.cart-img__star2 {
-    position: absolute;
-    left: 25px;
-    bottom: -935px;
-}
-
-
-.play-content__text {
-    padding-top: 94px;
-    color: rgb(255, 255, 255);
-    font-family: Montserrat;
-    font-size: 64px;
+    font-size: 32px;
     font-weight: 700;
-    line-height: 78px;
+    line-height: 39px;
     letter-spacing: 0px;
     text-align: left;
-}
-
-.play-content__par {
-    padding-top: 24px;
-    color: rgb(255, 255, 255);
+    padding-bottom: 16px;
+  }
+  .minigame-content__par {
+    color: rgb(0, 0, 0);
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 20px;
     letter-spacing: 0px;
-    padding-bottom: 72px;
-}
-
-.cart-img {
-    position: relative;
-    height: 314px;
-}
-
-.cart-play {
-    width: 378px;
-    border-radius: 20px;
-    box-sizing: border-box;
-    background-color: white;
-    padding: 32px 32px 36px 32px;
-}
-
-.cart-content__coment {
-    border-radius: 52.58px;
-    background: rgb(247, 247, 247);
+    text-align: left;
+    padding-bottom: 32px;
+  }
+  .minigame-content__allminicart {
+    width: 343px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .minigame-content__twominicart {
+    width: 343px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .minigame-content__minicart {
+    width: 343px;
+  }
+  .minigame-content__cart {
+    width: 343px;
+    padding: 29.04px 29.04px 32.67px 29.04px;
+  }
+  .minigame-content__img1 {
+    display: none;
+  }
+  .play {
+    display: none;
+  }
+  .footer-text {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
     text-align: center;
-    position: static;
-    box-sizing: border-box;
-    width: 108px;
-    height: 36px;
-    align-items: center;
-    padding: 8px 16px 10px 16px;
-}
-
-.cart-content__coment2 {
-    color: rgb(32, 32, 39);
-    font-family: Montserrat;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 39px;
-    letter-spacing: 0px;
-    text-align: left;
-    background-color: white;
-    width: 314px;
-    padding-top: 16px;
-}
-
-.cart-content__coment3 {
-    padding-top: 32px;
-    text-transform: uppercase;
-    color: rgb(32, 32, 39);
-    font-family: Montserrat;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 39px;
-    letter-spacing: 0px;
-    text-align: left;
-}
-
-.miniplay {
-    padding-top: 46px;
-    background-image: url(img/fonobgame.png);
-    padding-bottom: 72px;
-}
-
-.miniplay-text {
-    color: rgb(255, 255, 255);
-    font-family: Montserrat;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 78px;
-    letter-spacing: 0px;
-    text-align: left;
-}
+    padding-left: 93px;
+  }
+}/*# sourceMappingURL=style.css.map */
