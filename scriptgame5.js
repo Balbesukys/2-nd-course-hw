@@ -21,3 +21,4 @@ function startRockPaperScissors() {
         alert(`Вы проиграли...\nВаш выбор - ${userResult}\nКомпьтер выбрал - ${computerResult}`)
     }
 };
+
