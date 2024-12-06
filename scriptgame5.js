@@ -1,13 +1,23 @@
-function igra() {
-    let userValue = Number(prompt("Введите число от 1 до 3. 1 - камень, 2 - ножницы, 3 - бумага"))
-    let progValue = Math.ceil(Math.random() * 3)
-    alert(`Компьютер загадал ${progValue}`)
-    if (userValue === 1 && progValue > 1 || userValue === 2 && progValue === 3) {
-        alert("Молодец! Ты выйграл!")
-    }
-    else if (userValue === 3 && progValue < 3 || userValue === 2 && progValue === 1) {
-        alert("Извини, ты проиграл")
+function startRockPaperScissors() {
+    const options = [`камень`, `ножницы`, `бумага`];
+    let computer = Math.floor(Math.random() * options.length);
+    let computerResult = options[computer];
+    let userAnswer = Number(prompt(`Как обыграем компьютер?\nНапишите номер ответа:\n1.Камень\n2.Ножницы\n3.Бумага`) - 1);
+    let userResult = options[userAnswer];
+    // console.log(computerResult);
+    // console.log(userResult);
+    const rules = {
+        камень: "ножницы",
+        ножницы: "бумага",
+        бумага: "камень",
+    };
+
+    if (computerResult === userResult) {
+        alert(`Ничья, побуем еще!`)
+        return startRockPaperScissors()
+    } else if (rules[userResult] === computerResult) {
+        alert(`Вы выиграги!!!\nВаш выбор - ${userResult}\nКомпьтер выбрал - ${computerResult}`)
     } else {
-        alert("Ничья")
+        alert(`Вы проиграли...\nВаш выбор - ${userResult}\nКомпьтер выбрал - ${computerResult}`)
     }
-}
+};
