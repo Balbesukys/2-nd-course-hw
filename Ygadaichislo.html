@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="gameone">
+        <h1>Угадай число</h1>
+        <p>Я загадал чилсо от 1 до 100.</p>
+        <input type="number" id="input-field" min="1" max="100">
+        <button onclick="checkGuess()">Угадать</button>
+        <button onclick="ResetGame()">Начать заново</button>
+        <p id="message"></p>
+    </div>
+    <script src="scriptgame1.js"></script>
+</body>
+
+</html>
