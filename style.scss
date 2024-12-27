@@ -19,6 +19,21 @@
     overflow: hidden;
 }
 
+
+.startwo {
+    position: absolute;
+    top: 69px;
+    left: 63px;
+}
+
+
+.bigstar1 {
+    position: absolute;
+    overflow: hidden;
+    left: 920px;
+    top: -325px;
+}
+
 .glav-linia {
     position: absolute;
     left: 800px;
@@ -68,16 +83,18 @@
     left: 156px;
 }
 
-.glav-star4 {
+.starthree {
     position: absolute;
-    top: 568px;
-    left: 1013px;
+    bottom: 146px;
+    left: 948px;
 }
 
-.glav-star5 {
-    position: absolute;
-    left: 948px;
-    top: 538px;
+.mobstar {
+    display: none;
+}
+
+.mobstarsmoll {
+    display: none;
 }
 
 .glav-svg {
@@ -151,17 +168,26 @@
 
 }
 
-/*1 секция закончилась*/
 .play {
+    height: 1470px;
     overflow: hidden;
     background-image: url(img/fonobgame.png);
-    height: 1470px;
 }
 
-.cart {
-    display: grid;
-    grid-template-columns: repeat(3, 400px);
+.play__silka {
+    text-decoration: none;
 }
+
+.play__onesec {
+    display: flex;
+    gap: 32px;
+}
+
+.play-cart2 {
+    display: flex;
+    gap: 32px;
+}
+
 
 .cart-all {
     border-radius: 50px;
@@ -179,19 +205,20 @@
 
 }
 
-.cart-img__bigstar {
+.cart-content__bigstar {
     position: absolute;
-    left: 970px;
+    left: 1000px;
     top: 980px;
+    overflow: hidden;
 }
 
-.cart-img__star {
+.play__star {
     position: absolute;
     left: 40px;
     bottom: -1015px;
 }
 
-.cart-img__star2 {
+.play__star2 {
     position: absolute;
     left: 25px;
     bottom: -935px;
@@ -207,6 +234,10 @@
     line-height: 78px;
     letter-spacing: 0px;
     text-align: left;
+}
+
+.play-content__mobtext {
+    display: none;
 }
 
 .play-content__par {
@@ -234,9 +265,15 @@
 }
 
 .cart-content__coment {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: center;
     border-radius: 52.58px;
     background: rgb(247, 247, 247);
-    text-align: center;
     position: static;
     box-sizing: border-box;
     width: 108px;
@@ -281,9 +318,138 @@
     font-family: Montserrat;
     font-size: 64px;
     font-weight: 700;
-    line-height: 78px;
+    line-height: 72px;
     letter-spacing: 0px;
     text-align: left;
 }
+
+.minigame {
+    background-image: url(img/fonobgame.png);
+    padding-top: 46px;
+    height: 3500px;
+}
+
+.minigame-content {
+    padding-bottom: 32px;
+}
+
+.minigame-content__shaptext {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 72px;
+}
+
+.minigame-content__cart {
+    width: 600px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 48px 48px 48px 48px;
+}
+
+.minigame-content__text {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 24px;
+
+}
+
+.minigame-content__par {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 36px;
+}
+
+.minigame-content__button {
+    width: 247px;
+    box-sizing: border-box;
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 141.69%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 16px 28px 16px 28px;
+}
+
+.minigame-content__allminicart {
+    background-color: white;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border-radius: 50px;
+}
+
+.minigame-content__minicart {
+    width: 600px;
+}
+
+.minigame-content__twominicart {
+    width: 1200px;
+    display: flex;
+    background-color: white;
+    flex-direction: row-reverse;
+    border-radius: 50px
+}
+
+.minigame-img {
+    position: absolute;
+    left: 1249px;
+}
+
+.minigame-content__img1 {
+    position: absolute;
+    left: 1277px;
+    padding-top: 45px;
+}
+
+.footer {
+    height: 150px;
+    background: rgb(189, 237, 53);
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-left: 578px;
+    padding-right: 578px;
+}
+
+.cart-scroll {
+    text-decoration: none;
+}
+
+.gameone {
+    font-family: Montserrat;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 @import 'mobile';

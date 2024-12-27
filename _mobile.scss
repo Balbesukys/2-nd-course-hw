@@ -1,0 +1,233 @@
+@media (max-width: 765px) {
+    .center {
+        padding-left: 17px;
+        padding-right: 16px;
+    }
+
+    .glav {
+        height: 700px;
+        padding-bottom: 131px;
+    }
+
+    .glav-block {
+        width: 375px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .glav-block__text {
+        width: 262px;
+        height: 196px;
+        color: rgb(32, 32, 39);
+        font-family: Montserrat;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24;
+        padding: 0px;
+    }
+
+    .glav-block__obsh {
+        width: 343px;
+    }
+
+    .glav-block__par {
+        color: rgb(32, 32, 39);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        width: 296px;
+        padding-left: 23.5px;
+        padding-bottom: 36px;
+    }
+
+    .glav-block__j {
+        font-size: 16px;
+    }
+
+    .glav-knopka {
+        width: 320px;
+        box-sizing: border-box;
+        border: 1px solid rgb(32, 32, 39);
+        border-radius: 60px;
+        background: rgb(32, 32, 39);
+    }
+
+    .zvezda {
+        color: rgb(32, 32, 39);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: 4%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    .glav-zvezd {
+        position: static;
+        width: 19.34px;
+        height: 19.34px;
+    }
+
+    .cart-section {
+        padding-top: 0px;
+    }
+
+    .play {
+        height: 3740px;
+    }
+
+    .play-content__text {
+        display: none;
+    }
+
+    .play-content__mobtext {
+        display: flex;
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .play-content__par {
+        display: none;
+    }
+
+    .play-cart__onesec {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        padding-bottom: 24px;
+    }
+
+    .play-cart2 {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+    }
+
+    .cart-content__bigstar {
+        display: none;
+    }
+
+    .startwo {
+        left: 37px;
+        top: 64px;
+    }
+
+    .starthree {
+        display: none;
+    }
+
+    .mobstarsmoll {
+        display: flex;
+        position: absolute;
+        left: 272px;
+        bottom: 79px;
+    }
+
+    .mobstar {
+        position: absolute;
+        display: flex;
+        left: 220px;
+        top: -80px;
+    }
+
+    .minigame {
+        padding-bottom: 305px;
+    }
+
+    .minigame-content__shaptext {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding-bottom: 48px;
+    }
+
+    .minigame-content__text {
+        color: rgb(32, 32, 39);
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding-bottom: 16px;
+    }
+
+    .minigame-content__par {
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding-bottom: 32px;
+    }
+
+    .minigame-content__allminicart {
+        width: 343px;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .minigame-content__twominicart {
+        width: 343px;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .minigame-content__minicart {
+        width: 343px;
+    }
+
+    .minigame-content__cart {
+        width: 343px;
+        padding: 29.04px 29.04px 32.67px 29.04px;
+    }
+
+    .minigame-content__img1 {
+        display: none;
+    }
+
+    .play {
+        display: none;
+    }
+
+    .footer-text {
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        padding-left: 93px;
+    }
+}
