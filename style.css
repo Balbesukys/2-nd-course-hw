@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -164,7 +163,6 @@
   height: 66px;
 }
 
-/*1 секция закончилась*/
 .play {
   height: 1470px;
   overflow: hidden;
