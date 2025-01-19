@@ -1,0 +1,126 @@
+.text {
+    background-color: gainsboro;
+    width: 450px;
+    height: 100%;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.change-color {
+    background-color: gainsboro;
+    width: 450px;
+    height: 100%;
+    font-size: 30px;
+}
+
+.btn-color {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.change-text {
+    background-color: gainsboro;
+    width: 450px;
+    height: 100%;
+    font-size: 30px;
+}
+
+.btn-h1 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.description {
+    background-color: rgb(201, 139, 139);
+    width: 450px;
+    height: 100%;
+    font-size: 19px;
+}
+
+.text-description {
+    background-color: rgb(201, 139, 139);
+    width: 450px;
+    height: 100%;
+    font-size: 19px;
+}
+
+.change-all-text {
+    background-color: #dd7e03;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.change-all {
+    background-color: #dd7e03;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.descriptions {
+    background-color: rgb(201, 139, 139);
+    width: 450px;
+    height: 100%;
+    font-size: 19px;
+}
+
+.new-text {
+    margin-top: 40px;
+    background-color: #045215;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.delete-first {
+    margin-top: 40px;
+    background-color: #045215;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.description_1 {
+    background-color: rgb(201, 139, 139);
+    width: 450px;
+    height: 100%;
+    font-size: 19px;
+}
+
+.description_2 {
+    background-color: rgb(201, 139, 139);
+    width: 450px;
+    height: 100%;
+    font-size: 19px;
+}
